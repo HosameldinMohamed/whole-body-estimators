@@ -51,15 +51,15 @@
         <param name="local"> /baseestimation/r_leg_ft_sensor </param>
     </device>
 
-    <device name="left_lower_leg_strain" type="analogsensorclient">
+    <!--device name="left_lower_leg_strain" type="analogsensorclient">
         <param name="remote">/icub/left_foot/analog:o</param>
         <param name="local">/baseestimation/l_foot_ft_sensor:i</param>
-    </device>
+    </device-->
 
-    <device name="right_lower_leg_strain" type="analogsensorclient">
+    <!--device name="right_lower_leg_strain" type="analogsensorclient">
         <param name="remote">/icub/right_foot/analog:o</param>
         <param name="local">/baseestimation/r_foot_ft_sensor:i</param>
-    </device>
+    </device-->
 
     <!-- open transform server -->
     <device name="transformServer" type="transformServer" >
